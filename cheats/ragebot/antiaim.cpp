@@ -685,7 +685,7 @@ void antiaim::freestanding(CUserCmd* m_pcmd)
 	else if (back_ticks > 10)
 		final_manual_side = SIDE_BACK;
 }
-
+/*
 void antiaim::pitch_exploit(CUserCmd* m_pcmd)
 {
 	if (g_ctx.globals.weapon->is_grenade())
@@ -706,4 +706,4 @@ void antiaim::pitch_exploit(CUserCmd* m_pcmd)
 
 		m_pcmd->m_viewangles.x = pitch;
 	}
-}
+}*/

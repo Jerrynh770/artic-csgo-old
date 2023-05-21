@@ -1137,11 +1137,11 @@ void c_menu::draw(bool is_open)
 					ImGui::Checkbox(crypt_str("Enable"), &g_cfg.antiaim.enable);
 
 					ImGui::Checkbox(crypt_str("Better AA"), &g_cfg.antiaim.lagsync);
-					ImGui::Checkbox(crypt_str("Pitch Exploit"), &g_cfg.antiaim.pitch_exploit);
+					/*ImGui::Checkbox(crypt_str("Pitch Exploit"), &g_cfg.antiaim.pitch_exploit);
 					if (g_cfg.antiaim.pitch_exploit)
 					{
 						draw_keybind(crypt_str("Pitch Exploit"), &g_cfg.antiaim.pitch_exploit_key, crypt_str("##HOTKEY_HIDESHOTS"));
-					}
+					}*/
 					ImGui::Checkbox(crypt_str("Fake Flick"), &g_cfg.antiaim.flick);
 					if (g_cfg.antiaim.flick)
 						ImGui::SliderInt(crypt_str("Flick Speed"), &g_cfg.antiaim.flicktick, 5, 64, false, crypt_str("%d°"));
