@@ -1018,6 +1018,7 @@ void c_menu::draw(bool is_open)
 					}
 
 					ImGui::Checkbox(crypt_str("Pitch AA Correction"), &g_cfg.ragebot.pitch_antiaim_correction);
+					ImGui::Checkbox(crypt_str("Pitch Resolver"), &g_cfg.ragebot.pitch_resolver);
 
 					ImGui::Spacing();
 					ImGui::Text("");

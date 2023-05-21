@@ -454,5 +454,15 @@ void resolver::resolve_yaw()
 
 float resolver::resolve_pitch()
 {
+	if (!g_cfg.ragebot.pitch_resolver)
+		return original_pitch;
+
+	if (player->m_angEyeAngles().x > 50.f) {
+		player->m_angEyeAngles().x = 90.f;
+	}
+	if (player->m_angEyeAngles().x < -50.f) {
+		player->m_angEyeAngles().x = -90.f;
+	}
+
 	return original_pitch;
 }

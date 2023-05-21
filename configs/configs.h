@@ -338,6 +338,7 @@ struct Config
 		key_bind safe_point_key;
 		key_bind body_aim_key;
 		bool pitch_antiaim_correction;
+		bool pitch_resolver;
 		struct weapon
 		{
 			bool double_tap_hitchance;

@@ -75,6 +75,7 @@ void C_ConfigManager::setup()
 	setup_item(&g_cfg.ragebot.body_aim_key, key_bind(HOLD), crypt_str("Ragebot.body_aim_key"));
 	
 	setup_item(&g_cfg.ragebot.pitch_antiaim_correction, false, crypt_str("Ragebot.pitch_antiaim_correction"));
+	setup_item(&g_cfg.ragebot.pitch_resolver, false, crypt_str("Ragebot.pitch_resolver"));
 
 	for (auto i = 0; i < 8; i++)
 	{
