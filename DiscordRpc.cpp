@@ -12,8 +12,8 @@ void Discord::Update()
 {
     DiscordRichPresence discord;
     memset(&discord, 0, sizeof(discord));
-    discord.details = "Playing with artic maan";
-    discord.state = "With artic.su";
+    discord.details = u8"Artic v1.2.2";
+    discord.state = u8"t.me/arsnwise";
     discord.largeImageKey = "iconrpc";
     discord.smallImageKey = "iconrpc";
     Discord_UpdatePresence(&discord);
