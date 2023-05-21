@@ -538,7 +538,7 @@ BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
 			freopen_s((FILE**)stdout, "CONOUT$", "w", stdout);
 			freopen_s((FILE**)stderr, "CONERR$", "w", stderr);
 			printf("Artic - injected\n");
-			printf("Build 19.05.2023\n");
+			printf("Build 21.05.2023\n");
 			printf("Version: v1.2.2\n");
 			printf("Free Software - t.me/arsnwise\n");
 			//a
