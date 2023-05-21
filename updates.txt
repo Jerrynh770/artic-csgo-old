@@ -29,7 +29,7 @@ v1.2.2:
 [+]сохранение функций как Developer mode, allow http, allow file
 [+]Unlock inventory access
 [+]Pitch Resolver
-[]
+[+]discord rpc added
 []
 []
 []
