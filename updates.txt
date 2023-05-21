@@ -28,7 +28,7 @@ v1.2.2:
 [+]fake jitter вернули, т.к. в него мисают
 [+]сохранение функций как Developer mode, allow http, allow file
 [+]Unlock inventory access
-[]
+[+]Pitch Resolver
 []
 []
 []
