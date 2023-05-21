@@ -540,7 +540,7 @@ BOOL WINAPI DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
 			printf("Artic - injected\n");
 			printf("Build 21.05.2023\n");
 			printf("Version: v1.2.2\n");
-			printf("Free Software - t.me/arsnwise\n");
+			printf("Free Software - t.me/arsnwise\n");//123
 			//a
 
 			//b2
